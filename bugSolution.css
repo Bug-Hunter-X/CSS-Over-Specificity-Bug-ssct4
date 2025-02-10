@@ -1,0 +1,6 @@
+The issue is resolved by using a descendant selector instead of a child selector. This ensures the style applies to all `<p>` elements within `myDiv`, regardless of their nesting level within `myDiv`. 
+```css
+#myDiv p {
+  color: blue;
+}
+```
