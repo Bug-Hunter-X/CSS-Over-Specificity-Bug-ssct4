@@ -1,0 +1,6 @@
+The following CSS code snippet uses a selector that is too specific, leading to unexpected behavior. It only applies the style to the first `<p>` element within the `<div>` with the ID `myDiv`, instead of all `<p>` elements within `myDiv`. 
+```css
+#myDiv > p {
+  color: blue;
+}
+```
